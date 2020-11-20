@@ -2,7 +2,7 @@ const axios = require('axios');
 
 function convertDateToUsableString(date) {
   const [d, m, y] = date
-    .toLocaleDateString('pt-BR', {
+    .toLocaleDateString('en-US', {
       timeZone: 'America/Sao_Paulo'
     })
     .split('/');
